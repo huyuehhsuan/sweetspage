@@ -1,0 +1,114 @@
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff81ad;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    @media screen and (max-width:768px){
+        margin-bottom: 0;   
+    }
+    .log-in{
+        @media screen and (max-width:768px){
+            width: 100%;
+        }
+        h2{
+            font-size: 36px;
+            font-weight: bolder;
+            text-align: center;
+            background-color: #ffcaca;
+            padding-top: 30px;
+        }
+        .lof-in-txt{
+            width: 390px;
+            background-color: #ffcaca;
+            padding: 30px;
+            @media screen and (max-width:768px){
+                width: 100%;
+            }
+            .login-input{
+                display: flex;
+                input{
+                    width: 100%;
+                    height: 56px;
+                    outline: none;
+                    background-color: #fff;
+                    border: none; 
+                    margin-bottom: 16px;
+                    border-radius: 0 5px 5px 0;
+                }
+                i{
+                    background-color: #fff;
+                    padding: 16px 20px;
+                    color: #ffcaca;
+                    margin-bottom: 16px;
+                    border-radius: 5px 0 0 5px;
+                }
+            }
+            .checkbox{
+                width: 16px;
+                margin-right: 8px;
+            }
+        }
+        .log-btn{
+            width: 390px;
+            height: 65px;
+            background-color: #FFE180;
+            border: none;
+            font-size: 24px;
+            color: #ff81ad;
+            font-weight: bolder;
+            @media screen and (max-width:768px){
+                width: 100%;
+            }
+        }  
+    }
+    .sns{
+        width: 390px;   
+        background-color: #ffeaea;
+        padding: 40px;
+        text-align: center;
+        color: #ff81ad;
+        @media screen and (max-width:768px){
+            width: 100%;
+            padding: 30px;
+            order: -1;
+        }
+        h3{
+            font-size: 24px; 
+            margin-bottom: 16px;
+            @media screen and (max-width:768px){
+                display: none;
+            }
+        }
+        .snscontent{
+            @media screen and (max-width:768px){
+                display: flex;
+            }
+            li{
+                margin-bottom: 16px;
+                @media screen and (max-width:768px){
+                    width: 100%;
+                    margin-bottom: 0;
+                }
+                a{
+                    display: block;
+                    max-width: 330px;
+                    padding: 18px 0;
+                    background-color: #fff;
+                    font-size: 24px;  
+                    color: #8DA291;
+                    border-radius: 5px;
+                    &:hover{
+                        color: #ff81ad;
+                    }
+                    @media screen and (max-width:768px){
+                        display: block;
+                        border-right: 1px solid #ffeaea;
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+    }
+}
