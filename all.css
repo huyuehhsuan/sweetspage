@@ -170,7 +170,7 @@ a {
   border-radius: 5px;
 }
 .header .nav a:hover {
-  background-color: #ffcaca;
+  background-color: #fae3d9;
   color: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -181,7 +181,7 @@ a {
 
 /*頁尾*/
 .email {
-  background-color: #ffcaca;
+  background-color: #fae3d9;
   padding: 30px 0;
   color: #ff4888;
 }
@@ -260,13 +260,13 @@ a {
   height: 56px;
   line-height: 56px;
   text-align: center;
-  background-color: #FFE180;
+  background-color: #fff1ac;
   color: #ff4888;
   border-radius: 0 5px 5px 0;
 }
 
 .footer {
-  background-color: #FFE180;
+  background-color: #fff1ac;
   color: #ff4888;
 }
 .footer .sm-container {
@@ -330,7 +330,7 @@ a {
 
 .copy {
   padding-bottom: 30px;
-  background-color: #FFE180;
+  background-color: #fff1ac;
   color: #ff4888;
 }
 .copy .sm-container {
@@ -467,7 +467,7 @@ a {
       -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr;
   letter-spacing: 0.5rem;
-  color: #EAF0ED;
+  color: #fff;
 }
 @media screen and (max-width: 768px) {
   .blurry .blurry-item h2 {
@@ -535,6 +535,11 @@ a {
     width: 100%;
     position: absolute;
     top: 50%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .cross .corssitem .txt {
+    display: none;
   }
 }
 .cross .corssitem h3 {
@@ -646,28 +651,33 @@ a {
       flex-wrap: wrap;
   font-size: 20px;
   line-height: 56px;
-  border: 1px solid #ffcaca;
+  border: 1px solid #fae3d9;
   text-align: center;
   border-radius: 0 0 5px 5px;
 }
 .products .product-card .product-card-body h2 {
   width: 60%;
-  border: 1px solid #ffcaca;
+  border: 1px solid #fae3d9;
   font-weight: bold;
   color: #ff81ad;
 }
 @media screen and (max-width: 768px) {
   .products .product-card .product-card-body h2 {
     width: 50%;
-    border-right: 1px solid #ffcaca;
+    border-right: 1px solid #fae3d9;
     font-weight: bold;
     font-size: 26px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .products .product-card .product-card-body h2 {
+    font-size: 22px;
   }
 }
 .products .product-card .product-card-body span {
   width: 40%;
   font-weight: bolder;
-  border: 1px solid #ffcaca;
+  border: 1px solid #fae3d9;
   color: #ff81ad;
 }
 @media screen and (max-width: 768px) {
@@ -676,23 +686,32 @@ a {
     font-size: 26px;
   }
 }
+@media screen and (max-width: 370px) {
+  .products .product-card .product-card-body span {
+    font-size: 22px;
+  }
+}
 .products .product-card .product-card-body a {
   display: block;
   width: 100%;
-  background-color: #ffcaca;
-  border: 1px solid #ffcaca;
+  background-color: #fae3d9;
+  border: 1px solid #fae3d9;
   font-weight: bolder;
   font-size: 24px;
   color: #fff;
 }
 .products .product-card .product-card-body a:hover {
-  color: #FFE180;
-  background-color: #fff;
+  background-color: #fff1ac;
 }
 @media screen and (max-width: 768px) {
   .products .product-card .product-card-body a {
     font-size: 32px;
     padding: 8px 0;
+  }
+}
+@media screen and (max-width: 370px) {
+  .products .product-card .product-card-body a {
+    font-size: 28px;
   }
 }
 
@@ -817,12 +836,12 @@ a {
   font-size: 36px;
   font-weight: bolder;
   text-align: center;
-  background-color: #ffcaca;
+  background-color: #fae3d9;
   padding-top: 30px;
 }
 .log .log-in .lof-in-txt {
   width: 390px;
-  background-color: #ffcaca;
+  background-color: #fae3d9;
   padding: 30px;
 }
 @media screen and (max-width: 768px) {
@@ -847,7 +866,7 @@ a {
 .log .log-in .lof-in-txt .login-input i {
   background-color: #fff;
   padding: 16px 20px;
-  color: #ffcaca;
+  color: #fae3d9;
   margin-bottom: 16px;
   border-radius: 5px 0 0 5px;
 }
@@ -858,7 +877,7 @@ a {
 .log .log-in .log-btn {
   width: 390px;
   height: 65px;
-  background-color: #FFE180;
+  background-color: #fff1ac;
   border: none;
   font-size: 24px;
   color: #ff81ad;
@@ -871,7 +890,7 @@ a {
 }
 .log .sns {
   width: 390px;
-  background-color: #ffeaea;
+  background-color: #fff5c6;
   padding: 40px;
   text-align: center;
   color: #ff81ad;
@@ -925,7 +944,7 @@ a {
 @media screen and (max-width: 768px) {
   .log .sns .snscontent li a {
     display: block;
-    border-right: 1px solid #ffeaea;
+    border-right: 1px solid #ffffff;
     border-radius: 0;
   }
 }

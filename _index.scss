@@ -77,7 +77,7 @@
             left: 115px;
             writing-mode: vertical-lr;
             letter-spacing: .5rem;
-            color: #EAF0ED;
+            color: #fff;
             @media screen and (max-width:768px){
                 font-size: 32px;
                 writing-mode: horizontal-tb;
@@ -127,6 +127,9 @@
                 width: 100%;
                 position: absolute;
                 top: 50%;  
+            }
+            @media screen and (max-width:370px){
+                display: none;
             }
         }
         h3{
@@ -217,46 +220,54 @@
             flex-wrap: wrap;
             font-size: 20px;
             line-height: 56px;
-            border: 1px solid #ffcaca;
+            border: 1px solid $bg-main;
             text-align: center;
             border-radius: 0 0 5px 5px;
             h2{
                 width: 60%;
-                border: 1px solid #ffcaca;
+                border: 1px solid $bg-main;
                 font-weight: bold ;
                 color: #ff81ad;
                 @media screen and (max-width:768px){
                     width: 50%;
-                    border-right: 1px solid #ffcaca;
+                    border-right: 1px solid $bg-main;
                     font-weight: bold ;
                     font-size: 26px;
+                }
+                @media screen and (max-width:370px){
+                    font-size: 22px;
                 }
             }
             span{
                 width: 40%;
                 font-weight: bolder;
-                border: 1px solid #ffcaca;
+                border: 1px solid $bg-main;
                 color: #ff81ad;
                 @media screen and (max-width:768px){
                     width:50%;
                     font-size: 26px;
                 }
+                @media screen and (max-width:370px){
+                    font-size: 22px;
+                }
             }
             a{
                 display: block;
                 width: 100%;
-                background-color: #ffcaca;  
-                border: 1px solid #ffcaca;
+                background-color: $bg-main;  
+                border: 1px solid $bg-main;
                 font-weight: bolder;
                 font-size: 24px;
                 color: #fff;
                 &:hover{
-                    color: #FFE180;
-                    background-color: #fff;
+                    background-color: $bg-secondary;
                 }
                 @media screen and (max-width:768px){
                     font-size: 32px;
                     padding: 8px 0;
+                }
+                @media screen and (max-width:370px){
+                    font-size: 28px;
                 }
             }
         } 
